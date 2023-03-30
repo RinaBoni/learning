@@ -1,0 +1,26 @@
+@import 'components/login-form.css';
+/*@import 'components/login_svg.css';*/
+
+body{
+    font-family: 'Source Sans Pro';
+    margin: 0;
+}
+
+main{
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin: 0 auto;
+}
+
+*{
+    border: none;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
