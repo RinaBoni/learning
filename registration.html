@@ -3,7 +3,7 @@
     <head>
         <title>Registration</title>
 
-        <link rel="stylesheet" href="css/css.css">
+        <link rel="stylesheet" href="css/login.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,9 @@
         <main>
             <div class="container">
 
-                <div class="login-svg"></div><!--login-svg-->
+                <div class="login-svg">
+                    <img src="components/login-svg/img/login-svg.svg" alt="">
+                </div><!--login-svg-->
 
                 <div class="login-form">
 
@@ -27,34 +29,38 @@
 
                     <form action="" class="login-form__form" method="post">
 
-                        <label class="login-form__form-lable">First name
-                            <input class="login-form__form-input" type="text" name="first-name" tabindex="2">
+                        <label class="form__lable">First name
+                            <input class="form__input" type="text" name="first-name" tabindex="2">
                         </label>
 
-                        <label class="login-form__form-lable">Last Name
-                            <input class="login-form__form-input" type="text" name="last-name" tabindex="3">
+                        <label class="form__lable">Last Name
+                            <input class="form__input" type="text" name="last-name" tabindex="3">
                         </label>
 
-                        <label class="login-form__form-lable">Email
-                            <input class="login-form__form-input" type="text" name="email" tabindex="4">
+                        <label class="form__lable">Email
+                            <input class="form__input" type="email" name="email" tabindex="4">
                         </label>
 
-                        <label class="login-form__form-lable">Password
-                            <input class="login-form__form-input" type="password" name="password" tabindex="5">
+                        <label class="form__lable">Password
+                            <input class="form__input" type="password" name="password" tabindex="5">
+                            <button class="form__show-password" type="" tabindex="6"><img src="components/form/img/show-password.svg"></button>
                         </label>
 
-                        <label class="login-form__form-lable">Confirm Password
-                            <input class="login-form__form-input" type="password" name="confirm-password" tabindex="6">
+                        <label class="form__lable">Confirm Password
+                            <input class="form__input" type="password" name="confirm-password" tabindex="7">
+                            <button class="form__show-password" type="" tabindex="8"><img src="components/form/img/hide-password.svg"></button>
                         </label>
 
-                        <button class="login-form__form-btn" type="submit" tabindex="7">Register</button>
-                    </form><!--login-form__form-->
+                        <button class="form__btn" type="submit" tabindex="9">Register</button>
+                    </form><!--form-->
                     
 
                     <p class="login-form__or-lable">Or</p>
 
-                    <button class="login-form__btn" tabindex="8">Continue with Facebook</button>
-                    <button class="login-form__btn" tabindex="9">Continue with Google</button>    
+                    <div class="continue-with">
+                        <a class="continue-with__link" tabindex="10"><img class="continue-with__link-img" alt="" src="components/continue-with/img/facebook.svg">Continue with Facebook</a>
+                        <a class="continue-with__link" tabindex="11"><img class="continue-with__link-img" alt="" src="components/continue-with/img/google.svg">Continue with Google</a>   
+                    </div><!--login-form_continue-with-->   
 
                 </div><!--login-form-->
             </div><!--container-->
