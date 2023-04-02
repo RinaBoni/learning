@@ -1,4 +1,4 @@
-@import url('components/login-form.css');
+@import url('../components/login-form/css/login-form.css');
 @import url('../components/login-svg/css/login_svg.css');
 
 @import url('../components/form/css/form.css');
