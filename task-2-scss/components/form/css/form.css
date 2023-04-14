@@ -1,0 +1,85 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25.78px;
+    gap: 8.91px;
+}
+
+.form__lable{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #207198;
+    display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.form__input{
+    display: block;
+    height: 43.07px;
+    width: 336.69px;
+    border-radius: 8.61px;
+    box-sizing: border-box;
+    border: 2px solid #207198;
+    border-radius: 8.6147px;
+    background: #FFFFFF;
+
+    color: #207198;
+    font-size: 11.482px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.35px;
+
+    padding: 10.76px 17.94px;
+}
+
+.form__input:focus{
+    border-color: #6FCF97;
+    
+    font-weight: 400;
+    font-size: 11.482px;
+    line-height: 17px;
+    color: #37677E;
+}
+
+.form__show-password{
+    position: absolute;
+    right: 8px;
+    bottom: 14.36px;
+}
+
+.form__show-password:focus{
+    box-shadow: 0 0 4px;
+}
+
+.form__btn{
+    display: block;
+    width: 336.69px;
+    height: 43.07px;
+    background: linear-gradient(271.15deg, #FE904B 7.64%, #FB724C 90.68%), #EE5757;
+    backdrop-filter: blur(1.43578px);
+    border-radius: 8.6147px;
+
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15.7936px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    margin-top: 10.06px;
+}
+
+
+.form__btn:hover{
+    border: 2px solid #FB724C;
+    background: none;
+    background-color: #FFFFFF;
+    color: #FE904B;
+}
+
+.form__btn:focus{
+    border: 2px solid #FB724C;
+    background: none;
+    background-color: #FFFFFF;
+    color: #FE904B;
+}
