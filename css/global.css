@@ -1,9 +1,5 @@
-@import url("../components/login-form/css/login-form.css");
-@import url("../components/login-svg/css/login_svg.css");
-@import url("../components/form/css/form.css");
-@import url("../components/continue-with/css/continue-with.css");
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 input:focus, input:active,
@@ -30,3 +26,5 @@ button:focus, button:active {
   justify-content: center;
   margin-top: 60px;
 }
+
+/*# sourceMappingURL=global.css.map */

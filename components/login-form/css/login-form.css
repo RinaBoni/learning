@@ -1,88 +1,78 @@
-.login-form{
-    display: flex;
-	flex-direction: column;
-	width: 336.69px;
+.login-form__question-link, .login-form__question-lable {
+  font-weight: 400;
+  font-size: 11.4863px;
+  line-height: 17px;
 }
 
-.login-form__header{
-    font-weight: 700;
-    font-size: 25.84px;
-    line-height: 32px;
-    color: #0E4A67;
-
-    margin-bottom: 13px;
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 336.69px;
 }
 
-.login-form__question-lable{
-    font-weight: 400;
-    font-size: 11.48px;
-    line-height: 17px;
-    color: #37677E;
+.login-form__header {
+  font-weight: 700;
+  font-size: 25.84px;
+  line-height: 32px;
+  color: #0E4A67;
+  margin-bottom: 13px;
 }
 
-.login-form__link_registration{
-    color: #FE904B;
-    text-decoration: none;
+.login-form__question-lable {
+  color: #37677E;
 }
 
-.login-form__link_registration:hover{
-    color: #6FCF97;
+.login-form__link_registration {
+  color: #FE904B;
+  text-decoration: none;
+}
+.login-form__link_registration:hover {
+  color: #6FCF97;
+}
+.login-form__link_registration:focus {
+  color: #6FCF97;
 }
 
-.login-form__link_registration:focus{
-    color: #6FCF97;
+.login-form__question-link {
+  letter-spacing: 0.35px;
+  color: #207198;
+  text-decoration: none;
+  margin-top: 6.46px;
+}
+.login-form__question-link:hover {
+  color: #6FCF97;
+}
+.login-form__question-link:focus {
+  color: #6FCF97;
 }
 
-.login-form__question-link{
-    font-weight: 400;
-    font-size: 11.4863px;
-    line-height: 17px;
-    letter-spacing: 0.35px;
-    color: #207198;
-    text-decoration: none;
-
-    margin-top: 6.46px;
+.login-form__or-lable {
+  position: relative;
+  margin: 12px 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.35px;
+  color: #0E4A67;
+}
+.login-form__or-lable:before {
+  content: "";
+  position: absolute;
+  left: 56px;
+  top: 10px;
+  width: 76.1px;
+  height: 1px;
+  background-color: #0E4A67;
+}
+.login-form__or-lable:after {
+  content: "";
+  position: absolute;
+  right: 56px;
+  top: 10px;
+  width: 76.1px;
+  height: 1px;
+  background-color: #0E4A67;
 }
 
-.login-form__question-link:hover{
-    color: #6FCF97;
-}
-
-.login-form__question-link:focus{
-    color: #6FCF97;
-}
-
-.login-form__or-lable{
-    position: relative;
-	margin: 12px 0;
-	text-align: center;
-	font-weight: 700;
-	font-size: 17px;
-	line-height: 20px;
-	letter-spacing: 0.35px;
-	color: #0E4A67;
-
-    
-}
-
-.login-form__or-lable:before{
-    content: "";
-	position: absolute;
-	left: 56px;
-	top: 10px;
-	width: 76.1px;
-	height: 1px;
-	background-color: #0E4A67;
-    
-    
-}
-
-.login-form__or-lable:after{
-    content: "";
-	position: absolute;
-	right: 56px;
-	top: 10px;
-	width: 76.1px;
-	height: 1px;
-	background-color: #0E4A67;
-}
+/*# sourceMappingURL=login-form.css.map */
