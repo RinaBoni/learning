@@ -1,4 +1,4 @@
-# task-1-scss
+# task-2-scss
 
 [макет](https://www.figma.com/file/Vt6PkXILKKG1GOca6YexiZ/Task-1.-Login-Form?node-id=1%3A3592&t=2lz7qsmcmyVKsCtj-1)
 
