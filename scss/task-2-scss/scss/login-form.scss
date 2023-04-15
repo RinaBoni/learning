@@ -1,0 +1,90 @@
+$link-hover-color:#6FCF97;
+$main-color:#0E4A67;
+
+%question{
+    font-weight: 400;
+    font-size: 11.4863px;
+    line-height: 17px;
+}
+
+.login-form{
+    display: flex;
+	flex-direction: column;
+	width: 336.69px;
+}
+
+.login-form__header{
+    font-weight: 700;
+    font-size: 25.84px;
+    line-height: 32px;
+    color: $main-color;
+
+    margin-bottom: 13px;
+}
+
+.login-form__question-lable{
+    @extend %question;
+    color: #37677E;
+}
+
+.login-form__link_registration{
+    color: #FE904B;
+    text-decoration: none;
+    &:hover{
+        color: $link-hover-color;
+    }
+    &:focus{
+        color: $link-hover-color;
+    }
+}
+
+
+
+.login-form__question-link{
+    @extend %question;
+    letter-spacing: 0.35px;
+    color: #207198;
+    text-decoration: none;
+
+    margin-top: 6.46px;
+
+    &:hover{
+        color: $link-hover-color;
+    }
+    &:focus{
+        color: $link-hover-color;
+    }
+}
+
+.login-form__or-lable{
+    position: relative;
+	margin: 12px 0;
+	text-align: center;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 20px;
+	letter-spacing: 0.35px;
+	color: $main-color;
+
+    &:before{
+        content: "";
+        position: absolute;
+        left: 56px;
+        top: 10px;
+        width: 76.1px;
+        height: 1px;
+        background-color: $main-color;
+    }
+
+    &:after{
+        content: "";
+        position: absolute;
+        right: 56px;
+        top: 10px;
+        width: 76.1px;
+        height: 1px;
+        background-color: $main-color;
+    }
+    
+}
+

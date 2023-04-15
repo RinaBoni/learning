@@ -1,0 +1,32 @@
+@import url("../components/login-form/css/login-form.css");
+@import url("../components/login-svg/css/login_svg.css");
+@import url("../components/form/css/form.css");
+@import url("../components/continue-with/css/continue-with.css");
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 780px;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
